@@ -9,7 +9,7 @@ class SharetermCli < Formula
   def install
       ENV["GOPATH"] = buildpath
       bin_path = buildpath/"src/github.com/yunussandikci/shareterm"
-      bin_path.installa Dir["*"]
+      bin_path.install Dir["*"]
       cd bin_path/"cli" do
         system "go", "build", "-o", bin/"shareterm", "."
       end
