@@ -1,4 +1,4 @@
-class Shareterm < Formula
+class SharetermCli < Formula
   desc "Easiest way of sharing terminal logs!"
   homepage ""
   url "https://github.com/yunussandikci/shareterm/archive/v0.0.4.tar.gz"
